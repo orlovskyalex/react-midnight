@@ -1,0 +1,37 @@
+.tabs {
+	border-bottom: 1px solid black;
+
+	a {
+		border: 1px solid black;
+		box-sizing: border-box;
+		color: cornflowerblue;
+		display: inline-block;
+		font-family: 'Helvetica Neue', Arial, sans-serif;
+		margin-bottom: -1px;
+		margin-right: -1px;
+		padding: 10px 15px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&.active {
+			background-color: cornflowerblue;
+			color: #fff;
+		}
+	}
+}
+
+.tabs-content {
+	padding: 10px;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 10px 15px;
+}
