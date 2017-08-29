@@ -50,7 +50,6 @@ module.exports = {
 		compress: true,
 		hot: true,
 		inline: true,
-		stats: 'errors-only',
 		historyApiFallback: true,
 	},
 };
